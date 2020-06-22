@@ -1,0 +1,6 @@
+module Pods_BookARoom {
+  umbrella header "Pods-BookARoom-umbrella.h"
+
+  export *
+  module * { export * }
+}
