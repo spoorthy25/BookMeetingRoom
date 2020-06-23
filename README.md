@@ -18,6 +18,8 @@ If error saying npm not installed execute below command:
 
 npm install
 
+# Screenshots
+Application screen shots are available in the screenshots folder.
 
 # Launching
 Once the app is launched on the device, select the time to find the meeting rooms.
