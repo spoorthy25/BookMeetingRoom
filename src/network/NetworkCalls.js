@@ -1,5 +1,5 @@
 import * as Constants from '../network/Constants';
-//import NetInfo from "@react-native-community/netinfo";
+import NetInfo from "@react-native-community/netinfo";
 import CLStrings from "../res/CLStrings";
 
 //construct the httprequest for different types

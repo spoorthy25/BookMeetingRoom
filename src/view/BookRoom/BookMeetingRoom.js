@@ -106,6 +106,7 @@ export class BookMeetingRoom extends Component {
         result.forEach(room => {
             this.setState({rooms: result})
         })
+        return result
    }
 
    //parse the response as each room needs to be single row
@@ -218,6 +219,7 @@ export class BookMeetingRoom extends Component {
    }
 
     render() {
+        console.disableYellowBox = true;
         return (
             <SafeAreaView style={{backgroundColor: CLColors.WHITE, flex: 1,}}>
                 <ScrollView>
