@@ -271,7 +271,7 @@ export class BookMeetingRoom extends Component {
                          this.TimePicker = ref;
                      }}
                      minuteInterval={30}
-                     onCancel={() => this.onCancel()}
+                     onCancel={() => this.TimePicker.close()}
                      onConfirm={(hour, minute) => this.timeSelectedByUser(hour, minute)}
                 />
                 <Modal
